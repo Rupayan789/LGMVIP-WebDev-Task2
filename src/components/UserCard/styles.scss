@@ -1,0 +1,35 @@
+.user-card-container{
+    padding:5px;
+    border-radius: 1rem;
+    background: #DA4453;  
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  
+    background: linear-gradient(to right, #89216B, #DA4453);
+}
+.user-card{
+    background-color: #2b2827;
+    position: relative;
+    padding:3rem  2rem;
+    border-radius:1rem;
+    &-image{
+        position: absolute;
+        top:-60%;
+        left:25%;
+        
+        img{
+            border:2px solid #fff;
+            border-radius: 50%;
+        }
+
+
+    }
+    &-body{
+        position: relative;
+        &-name{
+            text-align: center;
+            padding:0.5rem 0;
+        }
+        &-email{
+            text-align: center;
+        }
+    }
+}

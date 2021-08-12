@@ -1,0 +1,9 @@
+.user-grid{
+    display: grid;
+    margin-top:10rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media screen and (max-width:700px) {
+        grid-template-columns: 1fr;
+    }
+    grid-gap: 10rem 1rem;;
+}

@@ -1,0 +1,34 @@
+.navbar-container{
+    
+    .navbar-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size:1.5rem;
+        color:#fff;
+        .flex-left{
+            cursor: pointer;
+        }
+        .flex-right{
+            
+            .btn-get-user{
+                padding:1rem;
+                font-size: 1rem;
+                color:#fff;
+                outline: none;
+                border: none;
+                background: #DA4453;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                &:hover{
+                    background: #bc4e9c;  /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                }
+            }
+            
+        }
+    }
+}
